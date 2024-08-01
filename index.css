@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding-left: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand {
+  color: #b88e2f !important;
+  font-weight: 700;
+}
+
+/* Hero Section */
+.heroText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff3e3a4;
+  padding: 20px;
+  border-radius: 10px;
+}
+.heroText h1 {
+  color: #b88e2f;
+  font-weight: 700;
+}
+.heroText h6 {
+  font-weight: 600;
+}
+.heroText p {
+  font-weight: 600;
+}
+.heroText button {
+  background-color: #b88e2f;
+  color: white;
+  text-align: center;
+  padding: 10px 30px;
+  border: none;
+}
+
+/* Carousel */
+.carouselImg {
+  height: 600px;
+}
+
+/* Card of Categories */
+.card {
+  border: none !important;
+}
+.cardProducts {
+  background-color: #f4f5f7 !important;
+}
+.cardProductsBody {
+  padding: 5px !important;
+}
+.btnShowMore button {
+  color: #b88e2f;
+  border: 2px solid #b88e2f;
+  padding: 10px 50px;
+  background-color: transparent;
+}
+/* Inspo */
+.inspo {
+  background-color: #fcf8f3;
+  margin: 10px;
+}
+.inspoText h1 {
+  font-weight: 700;
+}
+.inspoText button {
+  color: white;
+  background-color: #b88e2f;
+  padding: 10px 30px;
+  border: none;
+}
+.inspo-img1 {
+  height: 500px !important;
+}
+.inspoCarousel {
+  height: 500px;
+  object-fit: cover;
+}
+.inspoImg1 {
+  position: relative;
+}
+.InnerPeaceWrapper {
+  background-color: #ffffffb7;
+  width: fit-content;
+  padding: 15px;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.InnerPeaceWrapper button {
+  background-color: #b88e2f;
+  padding: 10px 15px;
+  border: none;
+}
+.inspoBtnBox {
+  display: flex;
+  justify-content: end;
+}
+
+/* Footer */
+.footerNav a {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-weight: 600;
+}
+
+.footerNav a:hover {
+  color: #b88e2f;
+}
+.socialMedLinks i {
+  font-size: 30px;
+  margin: 0 10px;
+}
